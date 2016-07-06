@@ -1,0 +1,33 @@
+{
+  "name": "outlined-text-layer",
+  "author": {
+    "name": "Ben Caller",
+    "email": "bcaller@gmail.com"
+  },
+  "description": "Pebble TextLayer extension for text with an outline of a different colour",
+  "version": "1.0.0",
+  "files": ["dist.zip"],
+  "keywords": ["pebble-package"],
+  "dependencies": {},
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bcaller/outlined-text-layer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bcaller/outlined-text-layer/issues"
+  },
+  "homepage": "https://github.com/bcaller/outlined-text-layer#readme",
+  "pebble": {
+    "projectType": "package",
+    "sdkVersion": "3",
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}
